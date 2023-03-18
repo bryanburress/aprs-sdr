@@ -26,3 +26,8 @@ The desktop version relies on `gpsd` to retrieve the device's position:
 
 ### Building and usage
 Simply run `make`. You can find some example scripts in the `/bin` folder.
+
+Notes
+Transmit with usrp
+# ./tx_samples_from_file --type float --freq 144.30e6 --bw 480000 --rate 2400000 --gain 30 --ant TX/RX --file /Users/bangfade/Documents/aprs-sdr/bin/test.dat
+
